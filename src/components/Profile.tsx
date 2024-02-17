@@ -19,7 +19,7 @@ const Profile = () => {
             </div>
         </div>
         <a
-            href="path_to_your_resume.pdf"
+            href="https://drive.google.com/file/d/1vE2w6ro8lRq7XCUWx-4vOGA1nrB9oEEi/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-16 inline-block w-1/4 text-center px-6 py-3 bg-[#ffffff] text-black font-bold text-lg leading-tight uppercase rounded shadow-md hover:shadow-lg active:bg-green-800 active:shadow-lg transition duration-300 ease-in-out"
