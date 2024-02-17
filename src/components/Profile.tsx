@@ -9,7 +9,7 @@ const Profile = () => {
         <div className='flex flex-col md:flex-row items-center md:justify-evenly max-w-screen-lg w-full mx-16'>
             <img src={headshotImg} className='rounded-full object-cover object=top w-60 h-60 flex flex-shrink-0 filter brightness-125 saturation-200'>
             </img>
-            <div className='flex pl-16 py-4 pr-8 font-thin'>
+            <div className='flex px-8 py-8 text-center md:text-left md:pl-16 md:py-4 font-thin'>
                 Welcome! I'm Kevin, I like solving puzzles and I'm passionate about solving real world problems with machine learning. I built this minimalistic website to introduce myself and showcase some of the projects I'm working on.
                 <br/><br/> 
                 Ongoing advancements in artificial intelligence are thrilling and fuels my continuous learning. My time at Infosys cultivated a special interest in natural language processing (NLP) and large language models (LLM).
