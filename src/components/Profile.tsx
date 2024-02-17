@@ -6,7 +6,7 @@ const Profile = () => {
         <h1 className='text-4xl pb-12 font-bold text-center'>
             About Me
         </h1>
-        <div className='flex flex-row justify-evenly max-w-screen-lg w-full mx-16'>
+        <div className='flex flex-col md:flex-row items-center md:justify-evenly max-w-screen-lg w-full mx-16'>
             <img src={headshotImg} className='rounded-full object-cover object=top w-60 h-60 flex flex-shrink-0 filter brightness-125 saturation-200'>
             </img>
             <div className='flex pl-16 py-4 font-thin'>
