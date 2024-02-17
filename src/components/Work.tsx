@@ -26,7 +26,7 @@ interface WorkItemProps {
 const WorkItem: React.FC<WorkItemProps> = ({ year, company, title, duration, details }) => {
     return (
         <ol className='flex flex-col md:flex-row relative'>
-            <li className='mb-10 ml-4'>
+            <li className='mb-10'>
                 <p className='flex flex-wrap gap-3 flex-row items-center justify-start text-base'>
                     <span className='inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md'>
                         {year}
@@ -60,7 +60,7 @@ const Work = () => {
     return (
         <div id='work' className='max-w-screen-xl m-auto px-16 py-16 flex flex-col'>
             <h1 className='text-4xl pb-12 font-bold text-center'>Work</h1>
-            <div className='pl-20'>
+            <div className='pl-4 md:pl-16'>
             {
                 data.map((item, idx) => (
                     <WorkItem
