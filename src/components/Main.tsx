@@ -1,10 +1,11 @@
 import { TypeAnimation } from 'react-type-animation'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import mainImg from '../../public/images/disney_sat.jpeg'
 
 const Main = () => {
     return (
         <div id='main'>
-            <img src='../../public/images/disney_sat.jpeg' className='w-full h-screen object-cover filter blur-sm'></img>
+            <img src={mainImg} className='w-full h-screen object-cover filter blur-sm'></img>
             <div className='w-full h-screen absolute top-0 left-0 bg-white/70'>
                 <div className='max-w-[30rem] m-auto h-full w-full flex flex-col justify-center text-center'>
                     <h1 className='sm:text-5xl text-4xl font-bold'>

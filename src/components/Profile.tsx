@@ -1,3 +1,5 @@
+import headshotImg from '../../public/images/headshot.jpeg'
+
 const Profile = () => {
   return (
     <div id='about' className='bg-[#FCFCFF] items-center max-w-full m-auto py-16 flex flex-col'>
@@ -5,7 +7,7 @@ const Profile = () => {
             About Me
         </h1>
         <div className='flex flex-row justify-evenly max-w-screen-lg w-full mx-16'>
-            <img src='../../public/images/headshot.jpeg' className='rounded-full object-cover object=top w-60 h-60 flex flex-shrink-0 filter brightness-125 saturation-200'>
+            <img src={headshotImg} className='rounded-full object-cover object=top w-60 h-60 flex flex-shrink-0 filter brightness-125 saturation-200'>
             </img>
             <div className='flex pl-16 py-4 font-thin'>
                 Welcome! I'm Kevin, I like solving puzzles and I'm passionate about solving real world problems with machine learning. I built this minimalistic website to introduce myself and showcase some of the projects I'm working on.
