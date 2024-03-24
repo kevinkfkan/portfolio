@@ -1,6 +1,6 @@
-import gptImg from '../../public/images/gpt.jpeg';
 import creditcardImg from '../../public/images/creditcard.jpeg'
 import portfolioImg from '../../public/images/portfolio.png'
+import tokenizerImg from '../../public/images/tokenizer.jpeg'
 
 interface ProjectItemProps {
     img: string;
@@ -48,14 +48,12 @@ const Projects = () => {
             </p>
             <div className='flex flex-col items-center'>
                 <ProjectItem 
-                    img={gptImg} 
-                    title='Building a GPT (In Progress)' 
-                    project_type='GPT' 
-                    skills='PyTorch' 
-                    hlink='' 
-                    description='With how quickly ChatGPT and Gemini are taking the world by storm, 
-                    I wanted to understand in-depth how transformer models work. What better way to understand something that to build it? Based on the paper "Attention is all you need" from Google, 
-                    I created my own GPT.' />
+                    img={tokenizerImg} 
+                    title='BPE Tokenizer' 
+                    project_type='Building GPT' 
+                    skills='Python' 
+                    hlink='https://github.com/kevinkfkan/BPETokenizer' 
+                    description='Trainable tokenizer built from scratch using utf-8, byte pair encoding (BPE), and Regex splits taken from GPT-4.' />
                 <ProjectItem 
                     img={creditcardImg} 
                     title='Credit Fraud Detection' 

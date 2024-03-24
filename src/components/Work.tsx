@@ -4,7 +4,7 @@ const data  = [
         company: 'Infosys Limited',
         title: 'Data Scientist Intern',
         duration: '1 year',
-        details: 'Contributed to research and development in tools for risk management. Main project involved developing a risk management tool that utilizes web scraping, scripting, natural language processing (NLP) and large language models (LLMs) to detect adverse media on a potential client and classify the risk of associating with them.'
+        details: 'As part of a research and development team, I took part in the development of a risk management tool to quantify a client\'s risk based on adverse media by using machine learning and natural language processing, automating a significant portion of the know-your-customer process.'
     },
     {
         year: '2021 - 2021',
